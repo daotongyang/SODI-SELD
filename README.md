@@ -28,8 +28,10 @@ This repository consists of multiple Python scripts forming one big architecture
  Now update the respective dataset name and its path in script. For the above example, you will change and . Also provide a directory path in the same script where all the features and labels will be dumped. `parameter.pydataset='foa'dataset_dir='base_folder/'feat_label_dirparameter.py`
  
  Extract features from the downloaded dataset by running the script. Run the script as shown below. This will dump the normalized features and labels in the folder. The python script allows you to compute all possible features and labels. You can control this by editing the script before running the script. `batch_feature_extraction.pyfeat_label_dirparameter.pybatch_feature_extraction.py`  
-Feature extraction    
+Feature extraction:    
 `python3 batch_feature_extraction.py 3`  
  
- Model training
+ Model training:  
  `python3 train_seldnet.py 3`
+
+ 
