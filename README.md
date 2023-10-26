@@ -24,5 +24,12 @@ This repository consists of multiple Python scripts forming one big architecture
  The provided codebase has been tested on python 3.8.11 and torch 1.10.0  
  ### Training the SODI-SELD  
  For the  Ambisonic dataset , download the respective zip file. This contains both the audio files and the respective metadata. first ,Unzip the files under the same 'base_folder/', ie,  then the 'base_folder/' should have two folders - 'foa_dev/' and 'metadata_dev/' after unzipping.  
+ 
  Now update the respective dataset name and its path in script. For the above example, you will change and . Also provide a directory path in the same script where all the features and labels will be dumped. `parameter.pydataset='foa'dataset_dir='base_folder/'feat_label_dirparameter.py`
- Extract features from the downloaded dataset by running the script. Run the script as shown below. This will dump the normalized features and labels in the folder. The python script allows you to compute all possible features and labels. You can control this by editing the script before running the script. `batch_feature_extraction.pyfeat_label_dirparameter.pybatch_feature_extraction.py`
+ 
+ Extract features from the downloaded dataset by running the script. Run the script as shown below. This will dump the normalized features and labels in the folder. The python script allows you to compute all possible features and labels. You can control this by editing the script before running the script. `batch_feature_extraction.pyfeat_label_dirparameter.pybatch_feature_extraction.py`  
+Feature extraction    
+`python3 batch_feature_extraction.py 3`  
+ 
+ Model training
+ `python3 train_seldnet.py 3`
