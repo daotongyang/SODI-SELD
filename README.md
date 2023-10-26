@@ -1,6 +1,6 @@
 # SODI-SELD
 ## DATASETS
-The dataset can be downloaded from the link-[https://zenodo.org/records/6387880](https://zenodo.org/records/6387880) and [https://zenodo.org/records/6406873](https://zenodo.org/records/6406873)
+The dataset can be downloaded from the link-[https://zenodo.org/records/6387880](https://zenodo.org/records/6387880) and [https://zenodo.org/records/6406873](https://zenodo.org/records/6406873)  
 Please look at the following links in detail about dataset:[https://dcase.community/challenge2022/task-sound-event-localization-and-detection-evaluated-in-real-spatial-sound-scenes](https://dcase.community/challenge2022/task-sound-event-localization-and-detection-evaluated-in-real-spatial-sound-scenes)
 ## Getting Started
 This repository consists of multiple Python scripts forming one big architecture used to train the SELDnet.
